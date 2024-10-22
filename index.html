@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch The Nums</title>
+    <link rel="stylesheet" href="NumsCss\nums-style.css" />
+  </head>
+  <body onload="onInit()">
+    <h1>Touch The Nums</h1>
+
+    <div class="game-container">
+      <div class="timer">
+        <span class="hours">00:</span><span class="minutes">00:</span><span class="seconds">00.</span><span class="mili-seconds">000</span>
+      </div>
+      <span class="sad">😔</span>
+      <span class = "next-num-span">Next Num:<span class="next-num">1</span></span>
+      <span class="happy">😊</span>
+      <div class="game">
+        <table></table>
+      </div>
+      <div>
+        <button onclick="newGame()" class="new-game">New Game</button>
+      </div>
+      <span>Difficulty:</span>
+      <div class="difficulty">
+        <button onclick="onClickLevel(this)" class="easy" data-level="4">
+          Easy
+        </button>
+        <button onclick="onClickLevel(this)" class="Hard" data-level="5">
+          Hard
+        </button>
+        <button onclick="onClickLevel(this)" class="Extreme" data-level="6">
+          Extreme
+        </button>
+      </div>
+    </div>
+
+    <script src="NumsJs\nums-script.js"></script>
+    <script src="NumsJs\util-clock.js"></script>
+  </body>
+</html>

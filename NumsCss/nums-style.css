@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.new-game {
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-game:hover {
+  background-color: #555;
+}
+
+.difficulty button {
+  background-color: #4caf50;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.difficulty button:hover {
+  background-color: #45a049;
+}
+
+.difficulty .easy {
+  background-color: #2196f3;
+}
+
+.difficulty .Hard {
+  background-color: #ff9800;
+}
+
+.difficulty .Extreme {
+  background-color: #f44336;
+}
+
+table {
+  border: 3px solid rgb(58, 56, 56);
+  margin: 10px auto;
+  border-radius: 3px;
+  border-collapse: collapse;
+}
+
+td {
+  font-size: 1.2em;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid #666;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.clicked {
+  background-color: #ffcccb;
+}
+
+.sad,
+.happy {
+  width: 10px;
+  display: none;
+  margin: 20px;
+}
+
+.timer {
+  font-family: monospace;
+  background-color: #333;
+  color: #f0f8ff;
+  width: 250px;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 1.5em;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.next-num-span {
+  background-color: rgba(70, 62, 62, 0.3) ;
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
